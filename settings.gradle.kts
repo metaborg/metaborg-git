@@ -19,3 +19,4 @@ plugins {
 rootProject.name = "metaborg-git-project"
 
 include(":git-library")
+project(":git-library").name = "git"
