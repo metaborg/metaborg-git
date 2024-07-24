@@ -18,4 +18,4 @@ plugins {
 
 rootProject.name = "metaborg-git-project"
 
-//includeBuild("git-library/")
+include(":git-library")
