@@ -1,4 +1,3 @@
-import org.metaborg.convention.Developer
 import org.metaborg.convention.MavenPublishConventionExtension
 
 // Workaround for issue: https://youtrack.jetbrains.com/issue/KTIJ-19369
@@ -25,9 +24,6 @@ allprojects {
 
             metadata {
                 inceptionYear.set("2024")
-                developers.set(listOf(
-                    Developer("Virtlink", "Daniel A. A. Pelsmaeker", "developer@pelsmaeker.net"),
-                ))
             }
         }
     }
