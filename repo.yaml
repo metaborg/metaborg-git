@@ -1,0 +1,22 @@
+---
+repoOwner: "metaborg"
+repoName: "metaborg-git"
+
+title: "Metaborg Git"
+description: |
+  A library for interacting with Git.
+inceptionYear: "2024"
+
+libraries:
+  - group: "org.metaborg"
+    name: "git"
+    description: "Metaborg Git library"
+
+developers:
+  - id: "Virtlink"
+    name: "Daniel A. A. Pelsmaeker"
+
+files:
+  githubWorkflows:
+    publishRelease: true
+    publishSnapshot: true
