@@ -20,3 +20,10 @@ files:
   githubWorkflows:
     publishRelease: true
     publishSnapshot: true
+  gradleRootProject:
+    update: true
+    createPublishTasks: true
+    rootProjectName: "metaborg-git-project"
+    includedProjects:
+      - name: "git"
+        path: "git-library/"
